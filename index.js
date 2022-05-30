@@ -6,7 +6,10 @@ const app = express();
 const path = require("path");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const { PORT, URI } = process.env;
+const {
+    PORT,
+    URI
+} = process.env;
 const userRoutes = require("./routes/userRoutes");
 const locationRoutes = require("./routes/locationRoutes");
 
